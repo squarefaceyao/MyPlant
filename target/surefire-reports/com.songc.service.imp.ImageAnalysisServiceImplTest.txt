@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.songc.service.imp.ImageAnalysisServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.02 sec <<< FAILURE! - in com.songc.service.imp.ImageAnalysisServiceImplTest
+multiRegion(com.songc.service.imp.ImageAnalysisServiceImplTest)  Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at java.util.Arrays.stream(Arrays.java:5004)
+	at com.songc.service.imp.ImageAnalysisServiceImplTest.<init>(ImageAnalysisServiceImplTest.java:43)
+
+singleRegion(com.songc.service.imp.ImageAnalysisServiceImplTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at java.util.Arrays.stream(Arrays.java:5004)
+	at com.songc.service.imp.ImageAnalysisServiceImplTest.<init>(ImageAnalysisServiceImplTest.java:43)
+

@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.songc.core.image.TiffImageTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.436 sec <<< FAILURE! - in com.songc.core.image.TiffImageTest
+getBufferedImage(com.songc.core.image.TiffImageTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: F:\Download\software\彩图\1011165442.tiff (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.songc.core.image.TiffImageTest.getBufferedImage(TiffImageTest.java:49)
+
+getPng(com.songc.core.image.TiffImageTest)  Time elapsed: 0 sec  <<< ERROR!
+java.io.FileNotFoundException: F:\Download\software\彩图\1011165442.tiff (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.songc.core.image.TiffImageTest.getPng(TiffImageTest.java:83)
+
+getGray(com.songc.core.image.TiffImageTest)  Time elapsed: 0.432 sec  <<< ERROR!
+javax.imageio.IIOException: Can't read input file!
+	at javax.imageio.ImageIO.read(ImageIO.java:1301)
+	at com.songc.core.image.TiffImageTest.getGray(TiffImageTest.java:39)
+
+test(com.songc.core.image.TiffImageTest)  Time elapsed: 0 sec  <<< ERROR!
+javax.imageio.IIOException: Can't read input file!
+	at javax.imageio.ImageIO.read(ImageIO.java:1301)
+	at com.songc.core.image.TiffImageTest.test(TiffImageTest.java:25)
+
+getAllRegionGrayAverage(com.songc.core.image.TiffImageTest)  Time elapsed: 0 sec  <<< ERROR!
+java.io.FileNotFoundException: F:\Download\software\彩图\1011165442.tiff (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.songc.core.image.TiffImageTest.getAllRegionGrayAverage(TiffImageTest.java:99)
+
+getRegionGaryAveage(com.songc.core.image.TiffImageTest)  Time elapsed: 0 sec  <<< ERROR!
+javax.imageio.IIOException: Can't read input file!
+	at javax.imageio.ImageIO.read(ImageIO.java:1301)
+	at com.songc.core.image.TiffImageTest.getRegionGaryAveage(TiffImageTest.java:64)
+

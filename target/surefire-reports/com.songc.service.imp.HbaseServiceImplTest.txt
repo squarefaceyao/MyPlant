@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.songc.service.imp.HbaseServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.178 sec - in com.songc.service.imp.HbaseServiceImplTest
